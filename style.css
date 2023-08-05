@@ -1,0 +1,80 @@
+/*painel principal*/
+#painel{
+    background-color: #303030;
+    font-family: inter;
+    color: #FFFFFF;
+    padding-top:  224px;
+    padding-bottom: 172px;
+}
+.text-1{
+    margin-left: 50px;
+}
+/*painel informacional*/
+#informacional{
+    font-family: inter ;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.text-2{
+    background-color:#F9F9F9;
+    margin: 50px 20px 50px 100px;
+}
+.editar_uva{
+    font-weight: bolder;
+    font-size: 30px;
+}
+/*relato de arquitetos*/
+#zona_geral_arquiteto{
+    font-family: inter;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#text-3{
+    margin: 300px 10px 0px 80px ;
+}
+#text-4{
+    font-size: 19px;
+    margin: 0px 20px 0px 80px ;
+}
+#imagem{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+/*Areia do formulario*/
+#formulario{
+    background-color: #303030;
+    text-align: center;
+}
+#TEXT-5{
+    font-family: inter;
+    color: #FFFFFF;
+    padding-top: 100px;
+    margin: 50px;
+}
+
+input{
+    Width:508px;
+    Height:72px;
+    margin: 20px;
+    cursor: text;
+    border-radius: 5px;
+    border: 0px;
+}
+button{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: 0PX;
+    border-radius: 10PX;
+    background-color: #C07212;
+    Width:293px;
+    Height:50px;
+
+}
+button:hover{
+    color: white;
+    transform: translateY(-7px);
+    transition-duration: 1s;
+    box-shadow:  0px 10px 15px 0px  #0a304185;
+}
